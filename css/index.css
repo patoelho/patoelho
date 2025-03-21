@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    width: 420px;
+    background-color: black;
+    font-family: "Baloo 2", sans-serif;
+    padding: 2rem;
+}
+
+h1{
+    display: grid;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+form{
+    display: grid;
+    justify-content: center;
+    gap: 1.75rem;
+}
+
+input, button{
+    display: block;
+    justify-self: center;
+    border: 1px solid #fbff00;
+    background-color: #86928e;
+    padding: .5rem;
+    width: 350px;
+    height: 30px;
+}
+input::placeholder{
+    color: #ffffff;
+}
+
+button{
+    padding: .3rem;
+    background-color: #56568d;
+    color: #ffffff;
+}
+
+p{
+    display: block;
+    color: #ffffff;
+    text-align: start;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+p + p{
+    margin-top: 1.5rem;
+}
+
+a{
+    color: #0000ff;
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}

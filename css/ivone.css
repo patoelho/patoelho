@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    width: 420px;
+    background-color: black;
+    font-family: "Baloo 2", sans-serif;
+    padding: 2rem;
+}
+
+h1{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+p{
+    display: block;
+    color: #ffffff;
+    text-align: start;
+    margin-top: 1rem;
+}
+
+a{
+    color: #0000ff;
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.click{
+    margin-top: 1.75rem;
+    padding-right: 1rem;
+    text-align: end;
+}
